@@ -14,6 +14,40 @@
       </ol>
     </section>
 
+<!-- Helpdesk-->
+<title> Helpdesk </title>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/dataTables.bootstrap.min.js"></script>		
+<link rel="stylesheet" href="css/dataTables.bootstrap.min.css" />
+<script src="js/ajax.js"></script>
+<link rel="stylesheet" href="css/style.css" />
+<?php include('templates/container.php');?>
+<div class="container">	
+	<div class="row home-sections">
+	<h2> Helpdesk </h2>
+  </div> 
+	<div class="">   		
+		<p>View and manage tickets that may have responses from support team.</p>		
+		<table id="listTickets" class="table table-bordered table-striped">
+			<thead>
+				<tr>
+					<th>S/N</th>
+					<th>Ticket ID</th>
+					<th>Subject</th>
+					<th>Department</th>
+					<th>Created By</th>					
+					<th>Created</th>	
+					<th>Status</th>
+					<th></th>
+					<th></th>
+					<th></th>					
+				</tr>
+			</thead>
+		</table>
+	</div>
+  
+
+
     <!-- Main content -->
     <section class="content">
       <!-- Small boxes (Stat box) -->
